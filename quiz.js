@@ -44,8 +44,7 @@ submitBtn.onclick = () => {
     const isCorrect = (userAnswer === correctAnswer);
     if (isCorrect && userAnswer !== null) score++;
 
-    const userAnswerText = userAnswer === null ? 'Δεν απαντήθηκε' : (isCorrect ? 'Σωστό' : 'Λάθος');
-    const correctAnswerText = correctAnswer ? 'Σωστό' : 'Λάθος';
+    const userAnswerText = userAnswer === null ? 'Δεν απαντήθηκε' : (isCorrect ? 'Σωστή' : 'Λάθος');
     const resultClass = isCorrect ? 'correct' : 'incorrect';
 
     let correctInfo = '';
