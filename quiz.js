@@ -31,7 +31,7 @@ function displayQuestions() {
 
 submitBtn.onclick = () => {
   let score = 0;
-  let html = '<h2>Αποτελέσματα</h2><table><tr><th>#</th><th>Ερώτηση</th><th>Η Απάντησή σας</th><th>Σωστή Απάντηση</th></tr>';
+  let html = '<h2>Αποτελέσματα</h2><table><tr><th>#</th><th>Ερώτηση</th><th>Η Απάντησή σας ήταν</th><th>Σωστή Απάντηση</th></tr>';
 
   questions.forEach((q, i) => {
     const selected = document.querySelector(`input[name='q${i}']:checked`);
