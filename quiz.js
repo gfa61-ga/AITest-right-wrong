@@ -50,7 +50,7 @@ submitBtn.onclick = () => {
 
     let correctInfo = '';
     if (userAnswerText === 'Λάθος') {
-      !q.answer ? correctInfo = q.right_answer : correctInfo ='Η απάντηση είναι σωστή' ;
+      !q.answer ? correctInfo = q.right_answer : correctInfo ='Η ερώτηση είναι σωστή' ;
     } else if (userAnswerText === 'Σωστό'){
       correctInfo = '✓';
     }
